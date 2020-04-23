@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/Cellar/node@12/12.16.1/bin/node /Users/lucas/.npm-packages/bin/yarnpkg install
+
+PATH: 
+  /usr/local/opt/node@12/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/lucas/.composer/vendor/bin:/usr/local/php5/bin:/Users/lucas/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/local/opt/node@12/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/lucas/.composer/vendor/bin:/usr/local/php5/bin:/Users/lucas/.npm-packages/bin:/usr/local/mongodb/bin:/Users/lucas/Library/Android/sdk/platform-tools:/usr/local/mongodb/bin:/Users/lucas/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz: Request failed "504 Gateway Timeout"
+      at ResponseError.ExtendableBuiltin (/Users/lucas/.npm-packages/lib/node_modules/yarn/lib/cli.js:696:66)
+      at new ResponseError (/Users/lucas/.npm-packages/lib/node_modules/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/Users/lucas/.npm-packages/lib/node_modules/yarn/lib/cli.js:66900:16)
+      at Request.emit (events.js:311:20)
+      at Request.module.exports.Request.onRequestResponse (/Users/lucas/.npm-packages/lib/node_modules/yarn/lib/cli.js:141341:10)
+      at ClientRequest.emit (events.js:311:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:603:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+      at TLSSocket.socketOnData (_http_client.js:476:22)
+      at TLSSocket.emit (events.js:311:20)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~37.0.3",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.1.0",
+      "@babel/core": "^7.8.6"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
